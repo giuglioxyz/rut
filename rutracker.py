@@ -136,7 +136,7 @@ config = Config()
 
 class Rutracker:
     name = "Rutracker"
-    url = "https://rutracker.org/forum/"
+    url = "https://rutracker.nl/forum/"
     url_dl = url + "dl.php?t="
     url_login = url + "login.php"
     supported_categories = {"all": "-1"}
